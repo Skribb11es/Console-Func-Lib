@@ -1,6 +1,12 @@
 # Console-Func-Lib
 A simple library designed to be an extension of the Roblox log service
 
+# Initilization
+
+```lua
+local logFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
+```
+
 # Fetch Funcs
 
 All timestamps will be returned in the normal Lua format, requiring you to format it as you see fit. For documentation on how to do this, you can find it here: [Roblox OS Docs](https://developer.roblox.com/en-us/api-reference/lua-docs/os)
