@@ -52,7 +52,7 @@ All timestamps will be returned in the normal Lua format, requiring you to forma
 
 Similar to the fetchPrints function, but instead of returning all the prints in the console, it will instead only return prints that contain the specified substring.
 ```lua
-local lf = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
+local logFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
 
 print("Hello World!")
 
@@ -67,7 +67,7 @@ end
 
 Similar to the fetchWarns function, but instead of returning all the warnings in the console, it will instead only return warnings that contain the specified substring.
 ```lua
-local lf = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
+local logFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
 
 warn("Hello World!")
 
@@ -82,7 +82,7 @@ end
 
 Similar to the fetchWarns function, but instead of returning all the warnings in the console, it will instead only return warnings that contain the specified substring.
 ```lua
-local lf = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
+local logFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
 
 error("Hello World!")
 
@@ -102,7 +102,7 @@ This does not have any relation with the hookfunc() or hookfunction() functions 
 
 Effectively works as a hook function for all outputs at once, and will process the function each time that something is output to either the internal Synapse X UI or the Roblox developer console.
 ```lua
-local lf = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
+local logFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Console-Func-Lib/main/main.lua"))()
 
 function returnOutput(table)
     if table["type"] == "SynapseError" then -- Called if the error is output to the Synapse X console
