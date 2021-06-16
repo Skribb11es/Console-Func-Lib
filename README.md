@@ -48,7 +48,7 @@ end
 
 All timestamps will be returned in the normal Lua format, requiring you to format it as you see fit. For documentation on how to do this, you can find it here: [Roblox OS Docs](https://developer.roblox.com/en-us/api-reference/lua-docs/os)
 
-## findPrint
+## findPrints
 
 Similar to the fetchPrints function, but instead of returning all the prints in the console, it will instead only return prints that contain the specified substring.
 ```lua
