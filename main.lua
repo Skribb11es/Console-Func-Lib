@@ -44,7 +44,7 @@ logFuncs.fetchErrors = function() -- returns error content and its timestamp
     return errorTable -- returns the table
 end
 
-logFuncs.findPrint = function(str) -- returns print content and its timestamp if the substring is found
+logFuncs.findPrints = function(str) -- returns print content and its timestamp if the substring is found
     local printTable = {}
     local prints = logFuncs.fetchPrints()
     for i,v in pairs(prints) do
