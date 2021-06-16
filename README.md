@@ -118,4 +118,5 @@ function returnOutput(table)
     end
 end
 
-lf.hookOutput(returnOutput)```
+lf.hookOutput(returnOutput)
+```
