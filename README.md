@@ -118,5 +118,5 @@ function returnOutput(table)
     end
 end
 
-lf.hookOutput(returnOutput)
+logFuncs.hookOutput(returnOutput)
 ```
