@@ -96,3 +96,4 @@ logFuncs.hookOutput = function(func) -- fired every time somthing is output to t
 end
 
 return logFuncs
+ 
